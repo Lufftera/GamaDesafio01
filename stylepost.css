@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "ubuntu";
+  margin: auto;
+}
+header {
+  position: absolute;
+  width: 1440px;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+
+  background: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.logo-header {
+  position: absolute;
+  width: 244px;
+  height: 77px;
+  left: 82px;
+  top: 20px;
+}
+nav > ul {
+  list-style-type: none;
+  position: absolute;
+  width: 309px;
+  height: 23px;
+  left: 1028px;
+  top: 47px;
+}
+nav > ul > li {
+  display: inline;
+}
+nav > ul > li > a {
+  color: #fdfdfd;
+  padding: 20px;
+  text-decoration: none;
+}
+.footer-p {
+  position: absolute;
+  width: 1440px;
+  height: 207px;
+  left: 0px;
+  top: 2981px;
+
+  background: #419488;
+}
+.logo-footer-post {
+  position: absolute;
+  left: 8.89%;
+  right: 69.44%;
+  top: 25.6%;
+  bottom: 25.4%;
+}
+.nav-footer-post > ul {
+  position: absolute;
+  left: 43.26%;
+  right: 51.81%;
+  top: 25.6%;
+  bottom: 34.3%;
+}
+.nav-footer-post > ul > li {
+  display: list-item;
+}
+.nav-footer-post > ul > li > a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.quero-ser-prof-p {
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+  background-color: #419488;
+
+  position: absolute;
+  left: 70.42%;
+  right: 9.51%;
+  top: 24.15%;
+  bottom: 51.21%;
+}
+.quero-ser-prof-p > a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+.aqui-tem-outro-link-p {
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+  background-color: #419488;
+
+  position: absolute;
+  left: 70.42%;
+  right: 9.51%;
+  top: 55.07%;
+  bottom: 20.29%;
+}
+.aqui-tem-outro-link-p > a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+.section-p1 {
+  position: absolute;
+  width: 1032px;
+  height: 1743px;
+  left: 204px;
+  top: 228px;
+}
+.section-p1 > h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+  color: #ff4081;
+}
+.section-p1 > .p-h1 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9d9d9d;
+  text-align: center;
+}
+.section-p1 > p {
+  text-indent: 0px;
+  text-align: justify;
+  margin-bottom: 2%;
+}
+.section-p1 > h2 {
+  color: #419488;
+  text-indent: 0px;
+  margin-bottom: 2%;
+  margin-top: 7%;
+}
+.section-p2 {
+  position: absolute;
+  width: 1440px;
+  height: 1081px;
+  left: 0px;
+  top: 1900px;
+  background: #f7f7f7;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-p2 > h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+  color: #ff4081;
+}
+.flex-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-container > div {
+  margin: 15px;
+  padding: 44px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container > div > img {
+  margin: 15px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container > div > h2 {
+  width: 344px;
+  height: 40px;
+  margin-top: 5%;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #ff4081;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container > div > p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  color: #000000;
+}
+.flex-container > div > button {
+  width: 233px;
+  height: 62.81px;
+
+  background: #ff4081;
+  border-radius: 62px;
+  border-color: #ff4081;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container > div > button > a {
+  color: #ffffff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  body {
+    max-width: 556px;
+    max-height: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 748px;
+    max-height: fit-content
+  }
+}
+@media (max-width: 992px) {
+  body {
+    max-width: 972px;
+    max-height: fit-content
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    max-width: 1180px;
+    max-height: fit-content
+  }
+}
+@media (max-width: 1400px) {
+  body {
+    max-width: 1380px;
+    max-height: fit-content
+  }
+}
